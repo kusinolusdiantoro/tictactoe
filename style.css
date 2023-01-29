@@ -21,6 +21,16 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .tic-tac-toe {
+    font-size: 14px;
+  }
+
+  .tic-tac-toe .board {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 table {
   border-collapse: collapse;
   margin: 0 auto;
